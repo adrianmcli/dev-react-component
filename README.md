@@ -31,4 +31,4 @@ The second option is much more hands off, but many people like to build their ow
 
 This boilerplate only produces a transpiled CommonJS version of the component in a `lib` folder with `babel-cli`. This should be sufficient if users of your package have a Webpack build step to compile their react app.
 
-UMD compilation may be added later or in a separate branch in order to support standalone usage in the future.
+UMD compilation may be added later or in a separate branch in order to support standalone usage in the future. See this [issue](https://github.com/adrianmcli/dev-react-component/issues/2) for more details.
