@@ -1,7 +1,5 @@
 # dev-react-component
-A minimalistic boilerplate for developing a react component as an NPM package.
-
-For this boilerplate, the goal is to be as minimalistic as possible:
+A minimalistic boilerplate for developing a react component as an NPM package:
 
 - No Babel
 - No Webpack
@@ -20,17 +18,18 @@ This boilerplate includes the use of [react-build-lib](https://github.com/adrian
   git clone https://github.com/adrianmcli/dev-react-component.git my-new-component
   ```
 
-2. Run `yarn` or `npm install` inside the directory that was just created.
-3. Change the `name`, `version`, and `description` inside `package.json`.
-4. Start developing your component inside `src/index.js`.
-5. Run `npm publish` to publish your component.
+2. Delete the existing git history by running `rm -rf .git` and then run `git init` to start fresh.
+3. Run `yarn` or `npm install` inside the directory that was just created.
+4. Change the `name`, `version`, and `description` inside `package.json`.
+5. Start developing your component inside `src/index.js`.
+6. Run `npm publish` to publish your component.
 
 # Developing Your Component
 
 Here you have two choices:
 
 1. Create your own "example" page that pulls in the component from `src/index.js` and load it up with React and all of its dependencies, or;
-2. Checkout the `storybook` branch of this repo and use [React Storybook](https://github.com/storybooks/react-storybook) with its built-in development environment to start building your component.
+2. **(RECOMMENDED)** Checkout the `storybook` branch of this repo and use [React Storybook](https://github.com/storybooks/react-storybook) with its built-in development environment to start building your component.
 
 The first option will probably require you to install a build tool (like [Webpack](https://webpack.github.io/) or [Brunch](http://brunch.io/) and setup all the dependencies you require to have a simple dev server capable of building a react app.
 
