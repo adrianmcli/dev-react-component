@@ -1,7 +1,16 @@
 # dev-react-component
 A minimalistic boilerplate for developing a react component as an NPM package.
 
-For this boilerplate, I am trying to be as minimalistic as possible. No testing. No linting. You get to decide how to bring those in yourself. All this boilerplate does is get you developing and publishing as fast as possible.
+For this boilerplate, the goal is to be as minimalistic as possible:
+
+- No Babel
+- No Webpack
+- No testing
+- No linting
+
+You get to decide how to bring those in yourself if you decide that you need it. All this boilerplate does is get you developing and publishing as fast as possible.
+
+This boilerplate includes the use of [react-build-lib](https://github.com/adrianmcli/react-build-lib) in order to generate CommonJS modules that you can publish and share. Other standalone modules like UMD are not supported yet (see below).
 
 # How to use
 
