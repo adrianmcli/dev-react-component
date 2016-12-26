@@ -1,16 +1,17 @@
 {
   "name": "dev-react-component",
-  "version": "0.0.2",
-  "description": "a minimalistic boilerplate for developing a react component as an NPM package",
+  "version": "0.0.3",
+  "description": "A minimalistic boilerplate for developing a react component as an NPM package.",
   "main": "lib/index.js",
   "scripts": {
-    "build": "babel src --out-dir lib",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "build": "npm run build:lib",
+    "build:lib": "react-build-lib"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "babel-cli": "^6.18.0"
+    "react-build-lib": "^0.0.1"
   },
   "peerDependencies": {
     "react": ">= 15",
