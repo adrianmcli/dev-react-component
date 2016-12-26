@@ -12,14 +12,15 @@ This boilerplate includes the use of [react-build-lib](https://github.com/adrian
 
 # How to use
 
-1. Clone this repo into a folder of your choice:
+1. Clone this repo into a folder of your choice and `cd` into it:
 
   ```
   git clone https://github.com/adrianmcli/dev-react-component.git my-new-component
+  cd my-new-component
   ```
 
 2. Delete the existing git history by running `rm -rf .git` and then run `git init` to start fresh.
-3. Run `yarn` or `npm install` inside the directory that was just created.
+3. Run `yarn` or `npm install` to install the dependencies.
 4. Change the `name`, `version`, and `description` inside `package.json`.
 5. Start developing your component inside `src/index.js`.
 6. Run `npm publish` to publish your component.
