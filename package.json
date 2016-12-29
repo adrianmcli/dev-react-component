@@ -6,19 +6,21 @@
   "scripts": {
     "start": "npm run storybook",
     "storybook": "start-storybook -p 6006",
-    "build": "npm run build:lib && npm run build-storybook",
-    "build:lib": "react-build-lib",
     "build-storybook": "build-storybook",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "build": "npm run build:lib && npm run build:dist && npm run build-storybook",
+    "build:lib": "react-build-lib",
+    "build:dist": "react-build-dist --bundle-name MyComponent.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Adrian Li",
+  "license": "MIT",
   "devDependencies": {
     "@kadira/storybook": "^2.21.0",
-    "react-build-lib": "^0.0.1"
+    "react-build-lib": "adrianmcli/react-build-lib",
+    "react-build-dist": "adrianmcli/react-build-dist"
   },
   "peerDependencies": {
-    "react": ">= 15",
-    "react-dom": ">= 15"
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0"
   }
 }
