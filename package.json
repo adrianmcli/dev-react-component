@@ -5,16 +5,18 @@
   "main": "lib/index.js",
   "scripts": {
     "prepublish": "npm run build",
-    "build": "npm run build:lib",
-    "build:lib": "react-build-lib"
+    "build": "npm run build:lib && npm run build:dist",
+    "build:lib": "react-build-lib",
+    "build:dist": "react-build-dist --bundle-name MyComponent.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "react-build-lib": "^0.0.1"
+    "react-build-lib": "adrianmcli/react-build-lib",
+    "react-build-dist": "adrianmcli/react-build-dist"
   },
   "peerDependencies": {
-    "react": ">= 15",
-    "react-dom": ">= 15"
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0"
   }
 }
