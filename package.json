@@ -9,8 +9,8 @@
     "build:lib": "react-build-lib",
     "build:dist": "react-build-dist --bundle-name MyComponent.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Adrian Li",
+  "license": "MIT",
   "devDependencies": {
     "react-build-lib": "adrianmcli/react-build-lib",
     "react-build-dist": "adrianmcli/react-build-dist"
