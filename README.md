@@ -26,3 +26,5 @@ You get to decide how to bring those in yourself if you decide that you need it.
 # Warning
 
 This boilerplate makes use of [React Build Lib](https://github.com/adrianmcli/react-build-lib) and [React Build Dist](https://github.com/adrianmcli/react-build-dist) in order to generate the `lib` and `dist` folders for distribution. These two tools generate CommonJS and UMD modules respectively. Use of Babel and Webpack is hidden under the hood so that you can concentrate on sharing your component.
+
+Note that these tools are extremely early in their development (i.e. this is as pre-alpha as it gets).
