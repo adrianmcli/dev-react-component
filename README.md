@@ -6,7 +6,9 @@ A minimalistic boilerplate for publishing a React component to NPM:
 - No testing
 - No linting
 
-You get to decide how to bring those in yourself if you decide that you need it. All this boilerplate does is get you developing and publishing as fast as possible.
+You get to decide how to bring those in yourself if you decide that you need it.
+
+This boilerplate focuses on getting you publishing as fast as possible.
 
 # How to use
 
